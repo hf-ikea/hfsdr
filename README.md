@@ -4,6 +4,7 @@ https://www.analog.com/en/products/ad9641.pdf                --- main adc 14bit 
 https://www.analog.com/en/products/ada4938-1.html            --- adc driver\
 https://www.analog.com/en/products/adl5206.html              --- vga canidate\
 https://www.analog.com/en/products/ad8331.html               --- vga canidate\
+https://www.analog.com/en/products/ad9515.html               --- clk distrib
 
 
 bpf\
@@ -13,4 +14,4 @@ driver\
 adc\
 fpga fifo - lattice ecp5?\
 ft60x\
-usb phy\
+usb phy
