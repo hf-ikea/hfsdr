@@ -1355,7 +1355,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "AP2205-50Y-13"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1404,15 +1404,7 @@
 			)
 		)
 		(symbol "AP2205-50Y-13_1_1"
-			(text "AP2205-50Y-13"
-				(at 0 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin input line
+			(pin power_in line
 				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "VIN"
@@ -1448,7 +1440,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VOUT"
@@ -1537,7 +1529,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at -7.62 0 0)
 				(length 2.54)
 				(name "OUT"
@@ -1591,7 +1583,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "IN"
@@ -1641,8 +1633,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TLV77333PDBVR"
+			(at 0 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,15 +1682,7 @@
 			)
 		)
 		(symbol "TLV77333PDBVR_1_1"
-			(text "TLV77333PDBVR"
-				(at 0.254 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin input line
+			(pin power_in line
 				(at -6.35 2.54 0)
 				(length 2.54)
 				(name "IN"
@@ -1770,7 +1754,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 6.35 2.54 180)
 				(length 2.54)
 				(name "OUT"
