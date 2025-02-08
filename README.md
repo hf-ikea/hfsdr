@@ -9,7 +9,7 @@ https://www.analog.com/en/products/ad9515.html               --- clk distrib
 
 bpf\
 vga\
-antialias lpf 7th order chebyshev\
+antialias lpf 8th order chebyshev\
 driver\
 adc\
 fpga fifo - lattice ecp5?\
