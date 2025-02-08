@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "hfsdr")(type "KiCad")(uri "${KIPRJMOD}/hfsdr.pretty")(options "")(descr ""))
+)
