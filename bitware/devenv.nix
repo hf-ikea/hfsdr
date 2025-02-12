@@ -11,5 +11,6 @@
     yosys
     trellis
     nextpnr
+    openocd
   ];
 }

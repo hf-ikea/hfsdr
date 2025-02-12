@@ -18,3 +18,13 @@ _autosave-*
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
