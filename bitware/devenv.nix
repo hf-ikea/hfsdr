@@ -12,5 +12,6 @@
     trellis
     nextpnr
     openocd
+    tcl
   ];
 }

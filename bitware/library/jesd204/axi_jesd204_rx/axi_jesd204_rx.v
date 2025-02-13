@@ -139,7 +139,7 @@ module axi_jesd204_rx #(
 
   up_axi #(
     .AXI_ADDRESS_WIDTH (14)
-  ) i_up_waxi (
+  ) i_up_axi (
     .up_rstn(~up_reset),
     .up_clk(s_axi_aclk),
     .up_axi_awvalid(s_axi_awvalid),
