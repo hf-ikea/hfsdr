@@ -193,7 +193,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "ABM8-30.000MHZ-D1X-T "
 			(at 1.27 -1.27 0)
 			(effects
 				(font
