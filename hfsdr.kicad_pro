@@ -598,6 +598,10 @@
     [
       "2a7dac49-7f3a-4b93-a65e-7895fde873e9",
       "Frontend"
+    ],
+    [
+      "a68bcd71-5523-4076-b910-08786eadc294",
+      "FPGA"
     ]
   ],
   "text_variables": {}

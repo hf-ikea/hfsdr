@@ -1,4 +1,4 @@
-module top(
+module top_mod(
     input wire adc_clk,
     input wire [13:0] adc_data,
     // FT601 interface
