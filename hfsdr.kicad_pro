@@ -427,8 +427,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "hfsdr"
+    ],
+    "pinned_symbol_libs": [
+      "hfsdr"
+    ]
   },
   "meta": {
     "filename": "hfsdr.kicad_pro",
@@ -575,6 +579,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,

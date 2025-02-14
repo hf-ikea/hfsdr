@@ -1888,28 +1888,50 @@
 				)
 			)
 		)
-		(symbol "hfsdr:590BD80M0000DG"
+		(symbol "hfsdr:590ND595M000DG"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.81 0)
+			(property "Reference" "Y"
+				(at -0.762 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" ""
-				(at -1.27 0 0)
+			(property "Value" "590ND595M000DG"
+				(at -8.636 4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "hfsdr:SI590_5x7mm"
-				(at -1.27 0 0)
+			(property "Footprint" "590ND595M000DG"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.skyworksinc.com/-/media/Skyworks/SL/documents/public/data-sheets/Si590-591.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard Clock Oscillators Differential/single-ended; single frequency XO; OE pin 2 (pin 1 for CMOS); 10-810 MHz"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1917,49 +1939,71 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -1.27 0 0)
+			(property "Height" "1.8"
+				(at 26.67 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at -1.27 0 0)
+			(property "Mouser Part Number" "634-590ND595M000DG"
+				(at 26.67 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "590BD80M0000DG_0_1"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Skyworks-Solutions-Inc/590ND595M000DG?qs=Cb2nCFKsA8opyn7V51K%252BNw%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Skyworks"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "590ND595M000DG"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "590ND595M000DG_1_1"
 				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -5.08)
+					(start -10.16 2.54)
+					(end 10.16 -7.62)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "590BD80M0000DG_1_1"
-				(text "590BD80M0000DG"
-					(at 0 6.096 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+						(type background)
 					)
 				)
 				(pin no_connect line
-					(at -8.89 2.54 0)
-					(length 2.54)
+					(at -15.24 0 0)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -1975,9 +2019,9 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 2.54)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 5.08)
 					(name "OE"
 						(effects
 							(font
@@ -1993,9 +2037,9 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
+				(pin passive line
+					(at -15.24 -5.08 0)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
@@ -2011,9 +2055,9 @@
 						)
 					)
 				)
-				(pin output line
-					(at 8.89 -2.54 180)
-					(length 2.54)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 5.08)
 					(name "CLK+"
 						(effects
 							(font
@@ -2029,9 +2073,9 @@
 						)
 					)
 				)
-				(pin output line
-					(at 8.89 0 180)
-					(length 2.54)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 5.08)
 					(name "CLK-"
 						(effects
 							(font
@@ -2047,9 +2091,9 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 2.54 180)
-					(length 2.54)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
 					(name "VDD"
 						(effects
 							(font
@@ -3726,7 +3770,7 @@
 		(uuid "40e98119-a126-4073-a567-bbabaa0c6e49")
 	)
 	(junction
-		(at 54.61 166.37)
+		(at 41.91 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4320ddce-ff2c-4a2b-b311-677f95b6f616")
@@ -3996,7 +4040,7 @@
 		(uuid "c9c2e59d-ce93-4d41-b6a0-029d644943f5")
 	)
 	(junction
-		(at 54.61 176.53)
+		(at 41.91 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb706bfc-1ea4-418c-a934-048e8eff6a78")
@@ -4044,7 +4088,7 @@
 		(uuid "e1d49f85-770e-4cbc-9c67-2c5c2666dc74")
 	)
 	(junction
-		(at 62.23 166.37)
+		(at 49.53 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea3168eb-2f69-427b-b859-0f28cd159e66")
@@ -4153,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 166.37) (xy 62.23 166.37)
+			(xy 41.91 166.37) (xy 49.53 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4343,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 166.37) (xy 46.99 168.91)
+			(xy 34.29 166.37) (xy 34.29 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4693,6 +4737,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 166.37) (xy 49.53 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58cc196e-a917-494d-9d05-7579c9e8c886")
+	)
+	(wire
+		(pts
 			(xy 106.68 132.08) (xy 106.68 133.35)
 		)
 		(stroke
@@ -4833,7 +4887,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 166.37) (xy 54.61 168.91)
+			(xy 41.91 166.37) (xy 41.91 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4893,7 +4947,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 176.53) (xy 64.77 176.53)
+			(xy 41.91 176.53) (xy 52.07 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5153,6 +5207,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 167.64) (xy 50.8 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffaaa3b-014f-4a62-9779-af10f1856ce0")
+	)
+	(wire
+		(pts
 			(xy 142.24 173.99) (xy 142.24 166.37)
 		)
 		(stroke
@@ -5170,6 +5234,16 @@
 			(type default)
 		)
 		(uuid "a2897f35-e2eb-407e-bd10-2e1d6847656a")
+	)
+	(wire
+		(pts
+			(xy 82.55 167.64) (xy 50.8 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a392709d-d029-43e1-a14b-6e96feb81f78")
 	)
 	(wire
 		(pts
@@ -5233,16 +5307,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 166.37) (xy 82.55 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add94498-2a1d-4c0b-b0f9-4ac5274fddda")
-	)
-	(wire
-		(pts
 			(xy 43.18 185.42) (xy 49.53 185.42)
 		)
 		(stroke
@@ -5250,16 +5314,6 @@
 			(type default)
 		)
 		(uuid "b14ef842-00bd-48dc-be19-24f4a5f23bfa")
-	)
-	(wire
-		(pts
-			(xy 82.55 166.37) (xy 82.55 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2138e2e-0362-430b-9d03-1d704e42af84")
 	)
 	(wire
 		(pts
@@ -5353,7 +5407,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 166.37) (xy 54.61 166.37)
+			(xy 34.29 166.37) (xy 41.91 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5483,6 +5537,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 167.64) (xy 82.55 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ababc5-5f8c-4d24-9eef-453309768ec1")
+	)
+	(wire
+		(pts
 			(xy 167.64 50.8) (xy 168.91 50.8)
 		)
 		(stroke
@@ -5493,7 +5557,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 176.53) (xy 54.61 176.53)
+			(xy 34.29 176.53) (xy 41.91 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5833,7 +5897,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 173.99) (xy 64.77 173.99)
+			(xy 49.53 173.99) (xy 52.07 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6423,7 +6487,7 @@
 	)
 	(global_label "CLKVDD"
 		(shape input)
-		(at 46.99 166.37 180)
+		(at 34.29 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6433,7 +6497,7 @@
 		)
 		(uuid "1f25ddb1-e481-46ba-86cf-fc0a931ddf83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8081 166.37 0)
+			(at 24.1081 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +6817,7 @@
 	)
 	(global_label "AGND"
 		(shape input)
-		(at 46.99 176.53 180)
+		(at 34.29 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6763,7 +6827,7 @@
 		)
 		(uuid "49ec6185-62b8-4a52-853d-45eddce2e612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.0457 176.53 0)
+			(at 26.3457 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,86 +9435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hfsdr:590BD80M0000DG")
-		(at 73.66 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "233c040f-dad2-4802-a863-258dc448ed40")
-		(property "Reference" "U4"
-			(at 73.66 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 73.66 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hfsdr:SI590_5x7mm"
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "0d7e6c58-6b5b-4400-8d3f-7bde2997b937")
-		)
-		(pin "2"
-			(uuid "d9a0e162-1e1c-4ec1-a8d5-46588a100167")
-		)
-		(pin "4"
-			(uuid "d07e2be7-a79a-4e31-a984-7f299837e39d")
-		)
-		(pin "3"
-			(uuid "0765706d-4279-466d-bcaf-2198e4abb69a")
-		)
-		(pin "1"
-			(uuid "13fd6366-08bb-4bed-833f-6a4befb9d3a1")
-		)
-		(pin "5"
-			(uuid "b06ab280-a022-451a-b1dd-d3f0ba8cc96a")
-		)
-		(instances
-			(project "hfsdr"
-				(path "/b0f4ea81-e287-4b08-8f8c-7fcbaea1e477/2a7dac49-7f3a-4b93-a65e-7895fde873e9"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Difference:ADA4938-1")
 		(at 250.19 35.56 0)
 		(unit 1)
@@ -9981,7 +9965,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 62.23 170.18 180)
+		(at 49.53 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9989,7 +9973,7 @@
 		(dnp no)
 		(uuid "311afda6-457f-405a-86c7-a1b8b6d59ab0")
 		(property "Reference" "R3"
-			(at 60.198 172.212 90)
+			(at 47.498 172.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +9981,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 60.198 168.148 90)
+			(at 47.498 168.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +9989,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 61.214 169.926 90)
+			(at 48.514 169.926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +9998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 170.18 0)
+			(at 49.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,7 +10007,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 62.23 170.18 0)
+			(at 49.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +10619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39860b47-7089-4425-9084-1cbc8dd87340")
-		(property "Reference" "J1"
+		(property "Reference" "RF1"
 			(at 196.85 73.1403 90)
 			(effects
 				(font
@@ -10689,7 +10673,7 @@
 		(instances
 			(project "hfsdr"
 				(path "/b0f4ea81-e287-4b08-8f8c-7fcbaea1e477/2a7dac49-7f3a-4b93-a65e-7895fde873e9"
-					(reference "J1")
+					(reference "RF1")
 					(unit 1)
 				)
 			)
@@ -10697,7 +10681,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 172.72 0)
+		(at 41.91 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10705,7 +10689,7 @@
 		(dnp no)
 		(uuid "39ccaf12-149b-428a-8fd5-b90a494494eb")
 		(property "Reference" "C29"
-			(at 55.118 170.688 0)
+			(at 42.418 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10714,7 +10698,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 55.118 174.752 0)
+			(at 42.418 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,7 +10707,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 55.5752 176.53 0)
+			(at 42.8752 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,7 +10716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 172.72 0)
+			(at 41.91 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +10725,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 54.61 172.72 0)
+			(at 41.91 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +11091,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 172.72 0)
+		(at 34.29 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11115,7 +11099,7 @@
 		(dnp no)
 		(uuid "4b77abc2-2222-4239-b132-7cd8390f2a7f")
 		(property "Reference" "C24"
-			(at 47.498 170.688 0)
+			(at 34.798 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11124,7 +11108,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 47.498 174.752 0)
+			(at 34.798 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,7 +11117,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 47.9552 176.53 0)
+			(at 35.2552 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +11126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 172.72 0)
+			(at 34.29 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11151,7 +11135,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 46.99 172.72 0)
+			(at 34.29 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14024,6 +14008,138 @@
 			(project "hfsdr"
 				(path "/b0f4ea81-e287-4b08-8f8c-7fcbaea1e477/2a7dac49-7f3a-4b93-a65e-7895fde873e9"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hfsdr:590ND595M000DG")
+		(at 67.31 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbedfb77-f874-42f9-8188-3c73d9ff3997")
+		(property "Reference" "Y1"
+			(at 67.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "590ND595M000DG"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "590ND595M000DG"
+			(at 93.98 266.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.skyworksinc.com/-/media/Skyworks/SL/documents/public/data-sheets/Si590-591.pdf"
+			(at 93.98 366.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard Clock Oscillators Differential/single-ended; single frequency XO; OE pin 2 (pin 1 for CMOS); 10-810 MHz"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at 93.98 566.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "634-590ND595M000DG"
+			(at 93.98 666.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Skyworks-Solutions-Inc/590ND595M000DG?qs=Cb2nCFKsA8opyn7V51K%252BNw%3D%3D"
+			(at 93.98 766.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Skyworks"
+			(at 93.98 866.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "590ND595M000DG"
+			(at 93.98 966.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "63945c92-eea9-4ec7-99b1-012afa796e5d")
+		)
+		(pin "1"
+			(uuid "0a541cff-0bb3-425c-9041-ee9ee9e2a8c9")
+		)
+		(pin "4"
+			(uuid "59f1cd64-d2e3-4205-9a66-04eeb2c89b6e")
+		)
+		(pin "3"
+			(uuid "fb59932b-da89-44dc-880f-d518844bbbe1")
+		)
+		(pin "2"
+			(uuid "30297a35-6af1-400b-95d2-456d584bb3dd")
+		)
+		(pin "5"
+			(uuid "3d353bea-f069-46ef-abdc-e9eb340403ae")
+		)
+		(instances
+			(project ""
+				(path "/b0f4ea81-e287-4b08-8f8c-7fcbaea1e477/2a7dac49-7f3a-4b93-a65e-7895fde873e9"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
