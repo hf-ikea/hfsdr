@@ -5,6 +5,98 @@
 	(uuid "b0f4ea81-e287-4b08-8f8c-7fcbaea1e477")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 62.23 142.24) (xy 60.96 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2570d6-9e66-4ac8-bfb0-46993642f583")
+	)
+	(global_label "AGND"
+		(shape input)
+		(at 60.96 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7eb87f98-5f99-4305-bc34-ad03fea5cb69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.0157 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 62.23 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c8c0f29-e236-4428-9b51-fbd6a4847874")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.0857 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 100.33)
+		(size 26.67 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "009070e2-36b6-44f8-956b-7e8b135b9b63")
+		(property "Sheetname" "DAC"
+			(at 73.66 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dac.kicad_sch"
+			(at 73.66 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hfsdr"
+				(path "/b0f4ea81-e287-4b08-8f8c-7fcbaea1e477"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 41.91 77.47)
 		(size 25.4 15.24)
